@@ -1,0 +1,43 @@
+body {
+  font-family: 'Gochi Hand', cursive;
+  margin: 0;
+}
+
+#columns{
+  max-width: 1280px;
+  margin: auto;
+  padding-top: 50px;
+  column-width:400px;
+  column-gap: 30px;
+}
+
+#columns figure{
+  display: inline-block;
+  margin:0;
+  margin-bottom: 20px;
+  padding:10px;
+  height: 650px;
+}
+
+#columns figure img{
+  width:100%;
+  border-radius: 25px;
+}
+
+#columns figure img:hover {
+  cursor: pointer;
+}
+
+#columns figure figcaption{
+  border-top:1px solid lightgray;
+  padding:15px;
+  margin-top:20px;
+  font-size: 25px;
+}
+
+#columns:hover figure:not(:hover) {
+	opacity: 0.3;
+}
+
+
+
